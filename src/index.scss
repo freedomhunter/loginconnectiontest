@@ -1,0 +1,25 @@
+$primaryFontcolor : white;
+
+.cardBase{
+    padding: 20px;
+    background: gray;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    align-self: center;
+    .card{
+        color: $primaryFontcolor;
+        flex: 1;
+        background: radial-gradient(ellipse at center, #008000 0%, #000000 100%); /* w3c */
+        margin:10px;
+        display: flex;
+        justify-content: center;
+        p{
+            color: $primaryFontcolor;
+            align-self: center;
+            text-transform: uppercase;
+        }
+    }
+}
