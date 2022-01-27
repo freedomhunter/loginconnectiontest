@@ -16,7 +16,7 @@
     "react-scripts": "3.3.0",
     "reactstrap": "^8.2.0",
     "redux": "^4.0.5",
-    "three": "^0.111.0"
+    "three": "^0.137.0"
   },
   "scripts": {
     "start": "react-scripts start",
